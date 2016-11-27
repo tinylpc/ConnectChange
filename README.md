@@ -1,5 +1,11 @@
 # ConnectChange
 当网络发生改变时，根据定义的规则执行相应的方法，支持无网络状态，Wi-Fi，2G，3G，4G
+
+# 引用方式
+`
+compile 'com.tinylpc:connection-change:1.0.0'
+`
+
 # 使用方式
 1、初始化，建议在Application的OnCreate()方法中
 
