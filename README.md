@@ -27,12 +27,12 @@ ConnectionChangeUtils.unregister(this);
 
 4、方法定义
 
-`
+```
 @ConnectionChangeAnnotation(tag = NetStatus.NO_NET)
 public void test3() 
 {  
    Toast.makeText(getApplicationContext(), "testtest", Toast.LENGTH_LONG).show();   
 }
-`
+```
 
 
